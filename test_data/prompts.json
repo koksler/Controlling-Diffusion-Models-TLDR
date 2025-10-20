@@ -1,0 +1,7 @@
+{
+    "prompt": "masterpiece, best quality, photorealistic, a crystal sphere shaped bottle filled with beer, oak table, cozy background",
+    "neg-prompt": "text, watermark",
+
+    "prompt_03": "photo of a cat",
+    "neg-prompt_03": "text, watermark"
+}
