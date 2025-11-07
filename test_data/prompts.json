@@ -1,38 +1,46 @@
 {
-    "sampler_comparison": {
-      "prompt": "masterpiece, best quality, photorealistic, a crystal sphere shaped bottle filled with beer, oak table, cozy background",
+  "sampler_comparison": {
+    "prompt": "masterpiece, best quality, photorealistic, a crystal sphere shaped bottle filled with beer, oak table, cozy background",
+    "negative_prompt": "text, watermark"
+  },
+  "finetuning_comparison": {
+    "test_01": {
+      "prompt": "photo of a cat",
       "negative_prompt": "text, watermark"
     },
-    "finetuning_comparison": {
-      "test_01": {
-        "prompt": "photo of a cat",
-        "negative_prompt": "text, watermark"
-      },
-      "test_02": {
-        "prompt": "laptop",
-        "negative_prompt": "text, watermark"
-      },
-      "test_03": {
-        "prompt": "fairy tale forest",
-        "negative_prompt": "text, watermark"
-      }
+    "test_02": {
+      "prompt": "laptop",
+      "negative_prompt": "text, watermark"
     },
-    "lora_comparison": {
-      "test_01": {
-        "prompt": "masterpiece, best quality, an old lighthouse standing on a rocky cliff, dramatic stormy sea, huge waves crashing against the rocks, epic sunset",
-        "negative_prompt": "text, watermark"
-      },
-      "test_02": {
-        "prompt": "masterpiece, best quality, a cluttered desk, an inventor's workshop, covered with blueprints, strange mechanical gadgets, glowing glass tubes, scattered tools, illuminated by a single warm desk lamp",
-        "negative_prompt": "text, watermark"
-      },
-      "test_03": {
-        "prompt": "masterpiece, best quality, low-angle shot, view of a Italian suburb, rainy, dozen puddles, cracked pavement, dark cloudy weather",
-        "negative_prompt": "text, watermark"
-      }
-    },
-    "controlnet_test": {
-      "prompt": "masterpiece, best quality, a nebula with swirling galaxies and stars, cosmic dust, Hubble telescope photo",
+    "test_03": {
+      "prompt": "fairy tale forest",
       "negative_prompt": "text, watermark"
     }
+  },
+  "lora_comparison": {
+    "test_01": {
+      "prompt": "masterpiece, best quality, an old lighthouse standing on a rocky cliff, dramatic stormy sea, huge waves crashing against the rocks, epic sunset",
+      "negative_prompt": "text, watermark"
+    },
+    "test_02": {
+      "prompt": "masterpiece, best quality, a cluttered desk, an inventor's workshop, covered with blueprints, strange mechanical gadgets, glowing glass tubes, scattered tools, illuminated by a single warm desk lamp",
+      "negative_prompt": "text, watermark"
+    },
+    "test_03": {
+      "prompt": "masterpiece, best quality, low-angle shot, view of a Italian suburb, rainy, dozen puddles, cracked pavement, dark cloudy weather",
+      "negative_prompt": "text, watermark"
+    }
+  },
+  "lora_lycoris_comparison": {
+    "prompt": "flat illustration, city, yellow background, sun, french suburbs, parkzone",
+    "negative_prompt": "text, watermark"
+  },
+  "controlnet_test": {
+    "prompt": "masterpiece, best quality, a nebula with swirling galaxies and stars, cosmic dust, Hubble telescope photo",
+    "negative_prompt": "text, watermark"
+  },
+  "ip_adapter_test": {
+    "prompt": "planet, space, green foliage, orange acid oceans",
+    "negative_prompt": "text, watermark"
   }
+}
