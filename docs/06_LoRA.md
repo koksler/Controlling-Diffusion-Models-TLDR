@@ -41,7 +41,7 @@ masterpiece, best quality, a cluttered desk, an inventor's workshop, covered wit
 masterpiece, best quality, low-angle shot, view of a Italian suburb, rainy, dozen puddles, cracked pavement, dark cloudy weather
 ```
 
-![LoRA_comp](Сравнение_по_LoRA)
+![LoRA_comp](/visual/LoRA_comp.png)
 
 Watercolor полностью переопределяет метод рендеринга, заставляя модель имитировать конкретную художественную технику - акварель. Она изменяет текстуры, линии и способ смешения цветов.
 
